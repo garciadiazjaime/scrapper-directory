@@ -1,0 +1,35 @@
+{
+  "category_list": [{
+    "id": "188296324525457",
+    "name": "Sandwich Shop"
+  }],
+  "category": "Local Business",
+  "checkins": 491,
+  "display_subtext": "Paseo Ensenada #149, Secc Jardines Playas DeTijuana・Imperial Beach, California・491 people checked in here",
+  "fan_count": 99,
+  "is_permanently_closed": false,
+  "is_published": true,
+  "is_verified": false,
+  "is_unclaimed": true,
+  "link": "https://www.facebook.com/pages/Subway-Playas-de-Tijuana/135003256571063",
+  "location": {
+    "city": "Imperial Beach",
+    "country": "United States",
+    "latitude": 32.5285909806,
+    "longitude": -117.11627981169,
+    "state": "CA",
+    "street": "Paseo Ensenada #149, Secc Jardines Playas DeTijuana",
+    "zip": "22500"
+  },
+  "place_type": "PLACE",
+  "phone": "<<not-applicable>>",
+  "rating_count": 27,
+  "talking_about_count": 0,
+  "website": "http://www.subway.com/",
+  "were_here_count": 491,
+  "engagement": {
+    "count": 99,
+    "social_sentence": "99 people like this."
+  },
+  "id": "135003256571063"
+}

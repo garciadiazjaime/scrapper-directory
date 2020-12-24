@@ -1,0 +1,11 @@
+html
+  head
+    title My Site
+    block link
+      link(href='/images/favicon.ico', rel='shortcut icon')
+      link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', rel='stylesheet', type='text/css')
+    block scripts
+      script(src='/jquery.js')
+  body
+    .container
+      block content

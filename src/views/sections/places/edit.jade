@@ -1,0 +1,58 @@
+extends ../../layout/main.jade
+
+block content
+  .page-header
+    h1
+      | Edit Place
+  .container
+    form.form-group(action="#", method="post")
+      .form-group
+        label Name
+        div
+          input.form-control(name="name", value=place.name, type="text")
+      .form-group
+        label Location
+        div
+          - if (place.location)
+            input.form-control(name="location.lat", value=place.location.lat)
+            input.form-control(name="location.lng", value=place.location.lng)
+          - else
+            input.form-control(name="location.lat", placeholder="latitude ")
+            input.form-control(name="location.lng", placeholder="longitude")
+      .form-group
+        label Address
+        div
+          input.form-control(name="address", value=place.address)
+      .form-group
+        label Type
+        div
+          input.form-control(name="type", value=place.type)
+        if place.metaDescriptions
+          each googleResult in place.metaDescriptions
+            .row
+              br
+            .row
+              .col-sm-1
+                - if (place.links && place.links.indexOf(googleResult.id.toString()) !== -1)
+                  input(type="checkbox", name="links[]", value=googleResult.id, checked='checked')
+                - else
+                  input(type="checkbox", name="links[]", value=googleResult.id)
+              .col-sm-2
+                | Link
+              .col-sm-9
+                a(href=googleResult.link, target="_blank")
+                  = googleResult.link
+            .row
+              .col-sm-1
+                - if (googleResult.id == place.description)
+                  input(type="radio", name="description", value=googleResult.id, checked='checked')
+                - else
+                  input(type="radio", name="description", value=googleResult.id)
+              .col-sm-2
+                | Description
+              .col-sm-9
+                = googleResult.description
+
+      .form-group
+        input.btn.btn-primary.pull-right(type="submit", value="Save")
+        a.btn.btn-danger.pull-right(href="/admin") Back

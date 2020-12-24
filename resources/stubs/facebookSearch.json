@@ -1,0 +1,18 @@
+{
+  "data": [{
+    "name": "Subway Playas de Tijuana",
+    "id": "135003256571063"
+  }, {
+    "name": "Subway",
+    "id": "1192157854129621"
+  }, {
+    "name": "Subway de Playas",
+    "id": "111132762352392"
+  }],
+  "paging": {
+    "cursors": {
+      "before": "MAZDZD",
+      "after": "MgZDZD"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "analytics#gaData",
+  "id": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:119188561&dimensions=ga:eventLabel&metrics=ga:users&sort=-ga:users&start-date=7daysAgo&end-date=yesterday&max-results=100",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "ids": "ga:119188561",
+    "dimensions": "ga:eventLabel",
+    "metrics": ["ga:users"],
+    "sort": ["-ga:users"],
+    "start-index": 1,
+    "max-results": 100
+  },
+  "itemsPerPage": 100,
+  "totalResults": 54,
+  "selfLink": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:119188561&dimensions=ga:eventLabel&metrics=ga:users&sort=-ga:users&start-date=7daysAgo&end-date=yesterday&max-results=100",
+  "profileInfo": {
+    "profileId": "119188561",
+    "accountId": "75576478",
+    "webPropertyId": "UA-75576478-1",
+    "internalWebPropertyId": "114084051",
+    "profileName": "All Web Site Data",
+    "tableId": "ga:119188561"
+  },
+  "containsSampledData": false,
+  "columnHeaders": [{
+    "name": "ga:eventLabel",
+    "columnType": "DIMENSION",
+    "dataType": "STRING"
+  }, {
+    "name": "ga:users",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+  }],
+  "totalsForAllResults": {
+    "ga:users": 127
+  },
+  "rows": [
+    ["click_facebook::ChIJ4ayWMCIl-xQRsLGfCAnkXgo::Beverly Burgers", "1"],
+    ["click_yelp::ChIJzU2mSq5L2YARuCK_DvleAfA::LuwakCafe", "1"],
+    ["load_more::true::12", "1"],
+    ["load_more::true::24", "1"]
+  ]
+}

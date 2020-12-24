@@ -1,0 +1,663 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CpQCAQEAAN__nYJ7zl9_9DI3AVPUy9ecL__IkePeLvnSUcQ5j56m2W3PP5vhyvEBgmRTL0fPnRCyuvpGiZsk0eLx1xOR4IinZ4f4LXPTEaz_i2yIxAcOgs1YdpIBIN6-Kpupm_EW8Yr3MWADJCaXgAdbbMCcL4KjgmDo5X7l5I9Pvvs1hYPb3-2v2FaMzoPWsfEotMVcbfMK2bGqsCTev8O7gttu1C5KeDbTS3SA5QXqEz8jlUMMY6wNip4VKo4XwBPLyao28_gKCr5moGfsE0NanY-2kHxkpoVMZOv13B1lLLy38X4D1tN9PttryXvlAr5mrLKNcUSY30993CkFmOPt-1mxCaBFoyoVCBIVT2Xi1giwRoEPEhBDWE5BqvG01BxplZhTsrr2GhRmoz6RLlznkcrOgf7fzwRYrlkILw",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5285664,
+               "lng" : -117.1164867
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "a15f91eeefc9fec1d2e7c3781b42b40fbf3d2ce2",
+         "name" : "Subway",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJV0CtertL2YAR6G6R6RPmabI",
+         "reference" : "CmRaAAAAI2E5S08_Pjn_8GzGxEIUOy5BTUqZc08Cn9GF0B0Op0Cfu4quhYI37nC1P1p20igxZvjYLfNEKIs8B6hM8yizw6yWXstLbK8GsGs4U9gT1vUfR-dEEJn5zvjwFt4Kzon6EhDHaN5jH7L4ge6oyzBVEiKXGhRZEMPqpQPNPZTJi7HS1hPcS8CfFQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "meal_takeaway",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Blvd. Paseo Ensenada 795-A, Sección Jardines, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5278203,
+               "lng" : -117.1167814
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "0342c16a37a0591428942ee3e0d5eb3dd7050093",
+         "name" : "Pizza&Love",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJmX5hFKVL2YAROPHq6VovT0U",
+         "rating" : 4.1,
+         "reference" : "CmRdAAAAE_hf_N9cKE-DAICMB9lP6BrOiTjZHWCLsT3wbfXInAfPFhwz1ckrSw8UoSBjn_MtTeCZALtVXq5IrO0SivCFxBLxSAXwwhE4-rZGMoHvd7h4ZTzue9cIYAfjPUxrn3yfEhAvVXl0nYmGdDr-Vbc0JpbWGhT3flk51LnShBW4vF4r0_irUn-Rsw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Av. Parque México Norte #560-2, Seccion Jardines, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.53403,
+               "lng" : -117.120526
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "c87ca4da8a6d2427c77c057466eb539eb945fe54",
+         "name" : "El Yogurt Place",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2490,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108601035414277386397/photos\"\u003eJonathan Haro\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAA_SJNFO27IdVCjxryWnou5XVkEReE2hsNcGCbEs8y7Iv_c760bwRzWIyCnOMkTQdLYNg75jXwqlo9fIjdxMGtN7atIMs-NtxGvwFHm8B_UTZ5HGuKNTtNYgd18EuRoGncnVxGuGieTqYOPz225kHGLkjmBq-z6Guia7iSZCv1iIEhChd0EZIZz3iMcqDOMokTCnGhQkUIz1MWFN4iN1gCA8pteDeB1TXw",
+               "width" : 8342
+            }
+         ],
+         "place_id" : "ChIJXzRF2qNL2YAR3-J69kdsFYc",
+         "rating" : 3.9,
+         "reference" : "CnRjAAAATenk8gmk9ok9usduX1upTfJrhhb2_xW4m_ioZhc7QQXFtR5f3W-AKyt0RjTchKaSWE73ss3oQIetuLaG1CukeZe6FguyNSl_qhMLWdSeouSMyHf0SHALkA7tdX1lQWTs1jHhieKEJfxEa9em6Nd6kRIQ3LYDumtoURvxtNXoyyZuRRoUJSBCbloI5YK_pXqH2c3FKRc-s9E",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Cantera 360, Playas De Tijuana, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5192418,
+               "lng" : -117.1160128
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.51929790000001,
+                  "lng" : -117.1159326
+               },
+               "southwest" : {
+                  "lat" : 32.51922309999999,
+                  "lng" : -117.1162534
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "14c7e0c04108c7dd4f233cce2c4ccb79eef025ef",
+         "name" : "Mamamia Pizza",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2048,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101950596594708084408/photos\"\u003eJorge Alberto\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAHyvnVxSXFyi6ImceVLnMJqnWrxHSbLzvZNK9jPehC7O99dyqo065p3PbvFBUS8vkcFDhyQdREwbUeFGkYr-TE9v_fkpacKKxWyvIrXmT9zXBgqLWIZDB80vhXdK9mBZnZ7QxYCh5eUdFJ_iqlpZz9M6a6C7nWcOr2EmQ8efU_dTEhBUyKNk2EgnEkZgH-RNPXapGhS-wNhG2ZrbbXffQTkIqYv_h8SHaQ",
+               "width" : 1536
+            }
+         ],
+         "place_id" : "ChIJn1hRc1BK2YARHiurByHYLDQ",
+         "rating" : 4.2,
+         "reference" : "CmRgAAAA-g8_fsi8bhja9oNl2xuJh3CEX19fbQex9_QDzc6Hbl8DbXaBxN-_VI5b16vXBPOmCGMS_0X2PuO1_hvPA3ipqV3TpMY86LwyzwtH17pLvxi3dacQS-uJyC0DEtjRXnmpEhD3b8JC0TNu8d4gYaH8UHqwGhQtMmpfFFla3jv1xIejjcTLfIx5nQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Blvd. Paseo Ensenada 1878, Seccion Dorado, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5315616,
+               "lng" : -117.1147888
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.53164019999999,
+                  "lng" : -117.1146734
+               },
+               "southwest" : {
+                  "lat" : 32.5313258,
+                  "lng" : -117.115135
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "9380cb322a48f8099666f632ecddc703d510ab5d",
+         "name" : "Carl's Jr",
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114790786517660357028/photos\"\u003eJuan Carlos Rodriguez Martinez\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAACv-g8r-2XTasGWCVKERlBgYssRLIhNLP-vwr_WFDRmVkiy4LyI2xlm7rmXefVSJQz3rnULg2QvhubXoeF36mVoQKfqi3E-RzykIW4UMR0bKoOnhgmYt_t2vvQ5Cib0-F2yTI6CuMJ_J7DluwjDcbjR15LJII9i8WN3KgIK-6TmAEhA1ZnULiY8YoNdPKZY6OzRiGhTgS80lR0okxsf0C-98AMr-H1oTUA",
+               "width" : 2160
+            }
+         ],
+         "place_id" : "ChIJX9wvraRL2YAR5k07oKe9FwM",
+         "rating" : 3.9,
+         "reference" : "CmRcAAAAEOXtEwpCYs5BVjW-q55ihN4Lub1-UJUk-lKpGhg_VjE7DkU1448EXCUastvvduaEMx0t9IDP-7owsag4wf8u4k4HaNtdiq_2KUQL72Stob3yMfDXGZ5wbgB1-1pHi6ezEhC1q0k5Q_lAnfNcYJCW1uycGhQhIvJUJAWjeSEXvlRgaXGmm02vgw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Paseo Ensenada 502 Int. 40, Playas Coronado, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5305212,
+               "lng" : -117.1139094
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "899464e0c77efa365479bdf23f6c40a4776095ed",
+         "name" : "Peter Piper Pizza",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJtQcvKczY2IAROTkU9ZRl4wI",
+         "rating" : 4,
+         "reference" : "CnRkAAAAdyaxEgwJmhkLmsefn3AKN5lsYZLNl2lUIhKlE4WUjcVcnfHQAzDMUikQm5DWvNWKeiTw4CcpZJ4LLQv8CbRIs_UPDaQifU_Icc9USFCxrBhvADhPpXs5hT0CGcNSmuUsuhgFMAu6YQ3Siq6YRyZSvxIQGOpLlK7XDhb-SaxVbXxXgBoU2ukKz9tIRzltcuYHsd9KUn3Qzqs",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Av. Paseo Ensenada 502, Playas De Tijuana, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5248513,
+               "lng" : -117.1158973
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "3e51bccb06b4a5ae693c53e54e60301b2483903e",
+         "name" : "Sushimi - Playas",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103949503974964324570/photos\"\u003eruben gonzalez\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAKSLSaNoRLGY9cQR_sIB7Q8Qxu4rI3McIRlU2Tysf_b39_BkGQQ84KDqOoI5aJrLbExcQB-MbImsizyW2y_MDxyh1gHlbYpxee_RA3l4JT99YGRsZXkq5cFwO114yD1dYRslLmi2g_JhP9H3fk4uGYtPrXUbhRob2PBN8wmSKnpWEhCDYR0e8KHYGMv91MIQUDHfGhS6tyPdHeyhvpZhvXE0CJR7U1xy1A",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJaYVnc1BK2YAR1xaufk3rpY0",
+         "rating" : 3.6,
+         "reference" : "CnRkAAAAgLvflvU8pNvMy32E0zJMmhwPEcKl-9rbsNOfyOmq7iYcS1OmDRQAIDGbdtF7dGI5rQKFKLYzh2MJ-ouPlPjgCnOXLE930UYCb8QhlBbjsqFAbMWqWL_ta_U5figpRdywGNkzmADpXqwvUXuvPYJ2gxIQ6TjYeNWtbvtdJX8lz7uM-hoU7dVhmDx4SDfctsTOMUmgHjrEeNI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "meal_delivery",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Paseo Plaza Roberta, Ensenada 1212, Seccion Jardines, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5284854,
+               "lng" : -117.1232765
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.52848915,
+                  "lng" : -117.12296285
+               },
+               "southwest" : {
+                  "lat" : 32.52847415000001,
+                  "lng" : -117.12338105
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+         "id" : "4b30ab6c23a4eac3958dbcce57df9f4e5c91529f",
+         "name" : "Sunset Lounge Playas",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 900,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102746517280966586982/photos\"\u003eSunset Lounge Playas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAACOFMyOhpm8L3xkiCzQmd8ilaelLtbkwuN1xfKE4a0OjqiR3igpMOjkk1JVBejPreTZbNxi6e3kEP05ImGLQwIrxoRPv0pReqKHUTz_pAMDdWk0g5zUI5r9bj_YAZ3xZxbX29b7KA-yaSE8SFWom7fFhnNwYNmUCls_XNaA24IXuEhB69eX-ENWpN_NrWeg3bkqgGhRq47ZxaxOHPuR11xvEnRVh8aHKeQ",
+               "width" : 1600
+            }
+         ],
+         "place_id" : "ChIJz1oS4aZL2YARvM7OaXgNOWc",
+         "rating" : 4,
+         "reference" : "CnRnAAAAE3kzz7YulNjVENzeKXymFmQtjaVzq62bNupjsRkoq8_kPse18WXXNltBYt9ZJeXYXVp4jzeUa0d1FbhHsdH7LHUcrM-P2dXChSQinZW_0tzaZ0Xy93djEX52TCv-rnlm2DlU9H4oqDWuTaiauhqCsBIQTLI959szqLzmFvwDeKvY8xoUIza-4wKp50uV0APt2x2fvxVHKaI",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "restaurant",
+            "night_club",
+            "food",
+            "bar",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "Avenida Del Pacifico, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.53133620000001,
+               "lng" : -117.112245
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "17c0561c6ffce01f93b99c51f046cd16c7c1d5b1",
+         "name" : "Tito's",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1632,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111860537962167474005/photos\"\u003eVicente perez bravo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAOuOwoj94A16xUPYcpSuDkx_ALcYNeFircq_VIVCIzsdOIJeZA2ttILgB-MRLNcIyfBF5qqqGws07GI0-x1De27hT4jjEw7EbFqfGY6oRcj3LYFIneb119KRZ-Je4F9y1kIB1crW-fMuBdOOzfis00RLaMs5brR-aM0qOrVkhzriEhA-KyZllehoizejoarAnEe0GhQMjgTBQ8OryiREv1q5gmrNVbnoeg",
+               "width" : 1224
+            }
+         ],
+         "place_id" : "ChIJYW10bbtL2YARmrji8YYEPaI",
+         "rating" : 4.2,
+         "reference" : "CmRaAAAAcOI88GWJJaj2J9oU8D-40N7Un-EWT1JUwirOa9wiJ6GazQc1w24Avzz1HXJjtZz06Fdm4QDiPOt-53hVY10_GHScqS3MIX7a_KsOH-jOWuXyr7kTfXhgBGpIF9S0u-J0EhAf0ad1gcX3uj8tVvwLWALlGhSTzf8FsRQ565pqLwR6dra2banOWw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Corales 107, Playas De Tijuana, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.526802,
+               "lng" : -117.1110842
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.52693684999999,
+                  "lng" : -117.11108415
+               },
+               "southwest" : {
+                  "lat" : 32.52675705,
+                  "lng" : -117.11108435
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "de3b7ee18b3140f284d99b9271e1443845af4c95",
+         "name" : "El Lugarzito Sushi y Teriyaki",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 538,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100286057477862023360/photos\"\u003eEl Lugarzito Sushi y Teriyaki\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAOAEbJhoArOnkMrCyjbHoLhougurAZzYaBQ0XaUWIrR8rkc5UCBi_Zq7IgXpkycrphCbw_RpsW2rIbWR2ECf4KFvAYX8r8OobVdQPNUlfC_kBy_RktXKRPdRur2QzTo6teaOdmnyq0oQNEuBdQx807ZODs5IiJYu2vjc97FlR31DEhD0tDR-P2-8YN6XgSdwZI89GhQ8lhzt2wUZ0TtkBSPRP__578qlCA",
+               "width" : 540
+            }
+         ],
+         "place_id" : "ChIJt4UokLBL2YARxbUQ7N4iNrw",
+         "reference" : "CoQBcQAAAEE9SIzNqmi4WnMO3odfNNhgswAPiTzB8jX_1dcL8jC6QgoqdPidoY3W6pYVNy1yphcGBDpDgsRPy10aytJqkq1xMlqxULUtvzZ7W79TejEK8YRu1Ls_4gJ6tB1XWwtm6WqdHVDn4MLOSGOcMHWlTZZJX22G848V5b0NwNNtaPL4EhDX79Ihd20adQMOq7HyJPMTGhSxuIy1ipjSwz6CzDPhvS81igCeNQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Parque México Sur 1145, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5304525,
+               "lng" : -117.1202422
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "97a532f2999e41a6ec7a544bf086aabaaa38cb95",
+         "name" : "Comidas Mexicanas",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104157541037073052185/photos\"\u003eTeodoro Saldivar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBdwAAAIY07ON5f_huX-B-zai2MkrDk8LPKt-lsJsuSGJFsAKG_Iuau3mjAmrL4-YjiVuXq27Utmt2YXV6ATLEUqnCb6PJ22H74tJrtlh4swF8sCv1NFCnETxSCQqYzCOgLNK66-pGXa0_4Ibm1Wx8q0o459AqyQ2tP4KkMBOj_edQ5FSMEhB9EHU-kVa0plAQQCFZDTulGhRecs3Owyfj_r9zBubsV174aofqHA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJVwhgBqRL2YARtpqu8lDTzQc",
+         "reference" : "CnRkAAAAz9FGW7xZlm4oZuuGQJze5wMDzfHZSPav8d3FDHPKQBLVisnmqpnirf_zejHho5wmRP_cS5kRmzvnr4di3-ViveQeutXiZ_LNovwQrDJPyHckEoq5eH6PPDrZYOnSAn3VnxC-GPgWQb3QlbV_MIMmYhIQQj4eFt_sS5MF6XLpInS0rRoUP-ULSRMXHkv1rcVCeDK20kV2F0w",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Paseo Playas 8, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.522251,
+               "lng" : -117.116446
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.52225139999999,
+                  "lng" : -117.11603845
+               },
+               "southwest" : {
+                  "lat" : 32.52224980000001,
+                  "lng" : -117.11658185
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "30cc10a82bbe4d1e7b388088b52623c3428d90b6",
+         "name" : "Restaurante El Corral",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 542,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103394418754899879601/photos\"\u003eRestaurante El Corral\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAC3YQ4DIwG_XQ12LS8YsauQLo6Vk9EKYYadD2gqjgHKut0CEcmKx5PLDdBBnnB_0Zfo05O2BNxZeRpRrvey_2YF5lLEBMECOsFEtYXSYINJM7VE4_lQESZH34hzm14SJeydpWZWu0CSuy606_QtYubjCRPe8MTZTf5j2OwC_at1wEhC8Woa5RFGMsLenUBcN6J6HGhQA_CWfxdeAkkIHp5BP1zsoKKsClw",
+               "width" : 541
+            }
+         ],
+         "place_id" : "ChIJz1AOblFK2YARi16MyU3dR_0",
+         "rating" : 4.1,
+         "reference" : "CnRpAAAAQiBLH8GwfDsx0Zuejx8yeUD0k2-281cjX1lloelm7JSAkDjPzU88I-5DdtsPqjfOAU86ydMFW6l1FKFARqng_1tJdrlZwbwgEP_U67I78bjDTqNTQQ3QItCsO9e_e27o6xh7izbFwB6H5uMUyOztlBIQ4urZPJIZP8IZNohyuuB8jxoUhVycAXC_xSXefScZpxl3CCVgiSQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Paseo Ensenada 1501, Triangulode Oro, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5270839,
+               "lng" : -117.1169405
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.52718435000001,
+                  "lng" : -117.1169389
+               },
+               "southwest" : {
+                  "lat" : 32.52678254999999,
+                  "lng" : -117.1169453
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8667044638785ec631d9198792304faafa548ea3",
+         "name" : "AKI Sushi De Playas",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110158364649958422029/photos\"\u003eMario Robles\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAI1uA--xs1fB1JAka9W_JHYN5nHdIobRvAq3TD0yN55FCZGAB-4o0jkqfk8v4VMoo5AiXwuE0zrZhra3dWYuzUPpsvP7ZJT_-YIXfdaG7SbQS2OUeh-svTRC7HNxNZKi2rCVHUKsG7Uz7uNkRkivAoMzyBrKIT8ims-0_hsYKHUHEhCH5_MuUVnTN3T4ZdeG9gzUGhS3dPVUoIpLotJ6v29RA9TyL6nR2g",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJvzL8cVFK2YARXveZQwFaDCg",
+         "rating" : 4.7,
+         "reference" : "CnRmAAAAKb5higtm3LedJnDEWGgrlZQG-OL1K4iMvToeU1HHp_SQUE2-XsgI_rTJoAMQxTlrsFcOuCn365Ta-zzqcOc4EaxUetdXY-mD2lr2_dChH8z6xeLdVHttjWWToAKxvoOPKNyMuNymLvlt3SCiFld0GBIQGFYaQEBSewrq9diZwFFfexoUGXUkWDSZNdpE1HK73zTNnUPKemE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Plaza MiraMar, Paseo Ensenada 951, Jardines Playas de Tijuana, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.530876,
+               "lng" : -117.121725
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.53108640000001,
+                  "lng" : -117.1176555
+               },
+               "southwest" : {
+                  "lat" : 32.5302448,
+                  "lng" : -117.1230815
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "1c160b48f43f47b316fbc8a0a29624cd24a84ffd",
+         "name" : "Sr. Waffle",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 240,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102437647602887013609/photos\"\u003eSr. Waffle\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAJgLZndxezctcohhFvZz9usO00OLsZHiu4DbU9vYil9DGypgp1Q8HeyONOt3n-zJ-vjNq_UGHBD9NDViorERwwaIg9jl4mmfOCwwPl0l1nxWTJ2nKfABwfChjwe8Nh1FNlhftGbTvf3ds5Rj_WZJTLLWbNN_4gQ7kyYJnPyhj-jFEhDkwZYrBOUl6PXva7dGySt0GhSe-mLfSg_IpnoaKHQ_7nTcQT_qrQ",
+               "width" : 360
+            }
+         ],
+         "place_id" : "ChIJX2Q0T6FL2YAR4Ls1XKBv-qg",
+         "reference" : "CmReAAAACm3qI4SiS9O1_Q6g4Fnk142xhb25U-Jqw4Np4BdaAOn6wvP1EkKUkb2R-dlpXdzNKMJxoMUzVML6OE15c8fSfvy66d3xj0swUZRFXHhNcM_LKJfvtgELKcymhbBdNf85EhC28gB87NnHQ6K7cIe1ORIgGhS48rboSQ9dD3O6K8ISrMiTbCx7vA",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Av. de la nieve #215, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.524074,
+               "lng" : -117.106064
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.52410605,
+                  "lng" : -117.10594805
+               },
+               "southwest" : {
+                  "lat" : 32.52405465,
+                  "lng" : -117.10610265
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "6ba9ced77536d0caa92fad977936e894d47446bf",
+         "name" : "La Cuisine D'Eunice",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJv0Cth7ZL2YARZ5DqRmRyfRg",
+         "reference" : "CnRmAAAAYSoIKSPCL4P2CYmDZRBldfcOi0tw3Cb5KE-erb0Z6YvBkoCj68VRPWlbuFAseZOnja1199z8i-Pl22xYLS_jl4GL3IOsemn9ns1WJ8IuXPGn2L3a0E9hoSsf5gN58fq2dAjQnyOuBb-muHibhy94NxIQ_2mWVsG_YNn7f3FjDFs5_RoUJC1IAnJi057YtRtdzdi8IRzNOn4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Playa Pacífico, Laderas del Mar, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5242457,
+               "lng" : -117.1202819
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "bd5b8eaa52c0672d697c3aa45edb43c7b4e0c182",
+         "name" : "SR. CARA DE PAPA",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 499,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103450596558755460995/photos\"\u003eSR. CARA DE PAPA\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAJ4XcLV6u1CATc3K7Dq3V9ZStrk458L2yRRFG_tbAGKBthz4lO8XfrMQPab1aCe3TyAOG_pLHrYbaRfsnmsyQ4ahdPD3wN-vR4shbTohEFPqdxk02UOQgdQe5JG0wDAN_6BQ2ekZw1fhVJZWTMV__J9F-ZXM04pNAzo148chmGfvEhC4bo-w7MqxDanXWVT1fIwpGhQNfypxIv8-4J5DEeBjnUxOKsuCTQ",
+               "width" : 499
+            }
+         ],
+         "place_id" : "ChIJh76ohqhL2YAR0ju6GwXzmfY",
+         "rating" : 4.5,
+         "reference" : "CnRkAAAAStxwU1FEur-3L-jys-K_vSsGjoDJGbElsgP9f6k3k14yJvIzWCdi33-EKP8hQY_2qYjGcx6S0MwFOr3sji2rL3mlDPDB9U4TUVEtte6qdvynv8N86hFjgQ8Yt9zabprDCbiYJp5F2pNAy8nat-rsNRIQgkCbGdXg7IkOGAoRWeGMvxoUQJ5fEdCriN3wPQtcSji0skOOhaU",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Paseo Playas de Tijuana #1287, Jardines, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.5305949,
+               "lng" : -117.1149122
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.5312171,
+                  "lng" : -117.11462825
+               },
+               "southwest" : {
+                  "lat" : 32.5303875,
+                  "lng" : -117.11500685
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "3194558f6a16dde60aabeaacaecae918524a5ac6",
+         "name" : "Lung Mon Playas",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ2-aitLpL2YARRunpdps9Hec",
+         "rating" : 4.2,
+         "reference" : "CnRjAAAARgLs2tuMuKWdC9CZHY7tacwBa1HLayqZKaasSO7PWFMkso_9ExguVoTsl4vA0YJk645kqwteHXuMNlEVc8ckipc-7BEj41TOMMBQydW49cEt7S7z_9PEWW4lINvYCtw2zDI9bQZkZfEVoPBbzXv1yBIQi5GoKSX0oSpdBARKWTkwqRoUDae55teV4u1Sa6wCXjkSFok99q4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Calle Del Risco 655, Playas de Tijuana, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.531355,
+               "lng" : -117.11606
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "a116d7dd66b75112a10ce40d595a94abf48ead1b",
+         "name" : "Star Salads",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101004740694301867931/photos\"\u003eStar Salads\u003c/a\u003e"
+               ],
+               "photo_reference" : "CoQBcwAAAEhFV7xZRiRSYZp5NVQEeuCprWyiAWpxVnV6qyS6GMCxyGbp901GXHxHCn5sro-9KGskPFxFbmo1bs7qALeZvwPlQVLBf4gS02aWmIiO_G4xK5xmE5lP8ARezHz5PDhVicaJhh8spISRhSojyWUsvSBw5pzYLNCG4y6ThIxDJrw_EhAUZAA3Ypv8V8S-RsWTrQmIGhSF3OIOjr9TJaqsPQ07SaXMRKdncA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ370moqRL2YARgZL50DyBKsA",
+         "reference" : "CmRfAAAAvcFs_M0dpx4ZdXShJqUVAwj4wr9CtwROfq8SQsWR2YCyn7fQDPFFwiTU6UOz-Tc5ehDdNKiDkppK-Qll_OFbZbcevZwzP9h_kU8JXfi2ET2u7lssQd9Ryzqlqhb-to4SEhDX9WXjVdDtdpaOpQ2mjPCPGhQL3szs_Zc_ijKpyqmyZzhXXz-4_w",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Pedregal #588 Local 102, Centro Comercial El Tapatio, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.51164000000001,
+               "lng" : -117.1214631
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 32.5116421,
+                  "lng" : -117.1214098
+               },
+               "southwest" : {
+                  "lat" : 32.51163930000001,
+                  "lng" : -117.121623
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "0fd2178937bc5342d755e49cdec5748b3ff1ede4",
+         "name" : "El Charro",
+         "place_id" : "ChIJ00VQZFRK2YARaTI4fEdflNY",
+         "reference" : "CmRdAAAAoWjXZFdvjz_ZqW19bMdPLX7yMkmKyo6fROZGuB00I4p76PHRZWtwwLQMbSLndQBsd5xiUdlyr_KwSTKe2xfwvuhnSgM-GtaG04xXUs8JZQ1e-1UqcR32uuDyKyKNgylmEhDM8_6Chpqf7_itt9qOnCHiGhR7fVo6G8GLnsNNjKMpt9oahW_yNA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Del Volcán 7, Tijuana"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 32.51824,
+               "lng" : -117.117651
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "61fb92c50a9802f49c2c5fe082a4a07293b5f686",
+         "name" : "Mishiro Express",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJy6qqqq1L2YARqCm2P_mv7W4",
+         "reference" : "CnRiAAAAuFs0xA6nT9TPXchUGNJaCiFYXr944tG0ESVD7NVb5f103kill2D79mTWTImD1ZrMdTAnoZtg9vD6QxOpVnWMUfpY5RWgVsuMDVbIGwR84YCrOW17E0C6n_E0GXmfFFXUWRswGGGFk8UeFACbVJ3CzhIQKTCEObGtf7pzIUSCpvC4gxoUrz1wUtE26gApT6bK0nHZeIZ8T_Q",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Paseo Ensenada 1023, Playas, Tijuana"
+      }
+   ],
+   "status" : "OK"
+}
