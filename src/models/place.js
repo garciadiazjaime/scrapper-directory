@@ -10,7 +10,14 @@ const PlaceSchema = new Schema({
     coordinates: { type: [] }
   },
   address: String,
-  googleRating: String,
+  phone: String,
+  price: Number,
+  rating: Number,
+  url: String,
+  userRatings: Number,
+  website: String,
+  photo: String,
+  reviews: Array,
   type: String,
 }, { timestamps: true });
 

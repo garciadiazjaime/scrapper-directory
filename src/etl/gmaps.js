@@ -1,6 +1,8 @@
 const fetch = require('node-fetch');
+const mapSeries = require('async/mapSeries');
 const debug = require('debug')('app:etl-gmaps')
 
+const { getPlaceDetails } = require('./gmaps-details')
 const { Place } = require('../models/place');
 const config = require('../config')
 
@@ -31,37 +33,59 @@ async function extract(url) {
   return response.json()
 }
 
-function transform(data, type) {
-  if (!Array.isArray(data) || !data.length) {
+function getPhoto(photos) {
+  if (!Array.isArray(photos) || !photos.length) {
+    return ''
+  }
+
+  return photos[0].photo_reference
+}
+
+function getReviews(reviews) {
+  if (!Array.isArray(reviews) || !reviews.length) {
+    return []
+  }
+
+  return reviews.map(review => ({
+    rating: review.rating,
+    text: review.text,
+  }))
+}
+
+function transform(place, type) {
+  if (!place) {
     return null
   }
 
-  return data.map(item => ({
-    id: item.place_id,
-    name: item.name,
+  return {
+    id: place.place_id,
+    name: place.name,
     gps: {
       type : 'Point',
-      coordinates: [item.geometry.location.lng, item.geometry.location.lat]
+      coordinates: [place.geometry.location.lng, place.geometry.location.lat]
     },
-    address: item.vicinity,
-    googleRating: item.rating || 0,
+    address: place.vicinity,
+    phone: place.formatted_phone_number,
+    price: place.price_level,
+    rating: place.rating,
+    url: place.url,
+    userRatings: place.user_ratings_total,
+    website: place.website,
+    photo: getPhoto(place.photos),
+    reviews: getReviews(place.reviews),
     type,
-  }));
+  };
 }
 
-function load(places) {
-  const promises = places.map(place => {
-    const filter = {
-      id: place.id,
-    };
+function load(place) {
+  const filter = {
+    id: place.id,
+  };
 
-    return Place.findOneAndUpdate(filter, place, {
-      new: true,
-      upsert: true,
-    })
-  });
-
-  return Promise.all(promises)
+  return Place.findOneAndUpdate(filter, place, {
+    new: true,
+    upsert: true,
+  })
 }
 
 async function etl(type, token) {
@@ -70,9 +94,18 @@ async function etl(type, token) {
 
   const response = await extract(url)
 
-  const places = await transform(response.results, type)
+  if (!Array.isArray(response.results) || !response.results.length) {
+    return null
+  }
 
-  const results = await load(places)
+  const results = await mapSeries(response.results.slice(0, 1), async (item) => {
+    const details = await getPlaceDetails(item)
+
+    const place = transform(details, type)
+
+    return await load(place)
+  })
+
   debug(`saved: ${results.length}`)
 
   return response.next_page_token
