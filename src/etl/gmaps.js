@@ -3,6 +3,7 @@ const mapSeries = require('async/mapSeries');
 const debug = require('debug')('app:etl-gmaps')
 
 const { getPlaceDetails } = require('./gmaps-details')
+const { getPhotoURL } = require('./gmaps-photo')
 const { Place } = require('../models/place');
 const config = require('../config')
 
@@ -33,7 +34,7 @@ async function extract(url) {
   return response.json()
 }
 
-function getPhoto(photos) {
+function getPhotoRef(photos) {
   if (!Array.isArray(photos) || !photos.length) {
     return ''
   }
@@ -71,7 +72,7 @@ function transform(place, type) {
     url: place.url,
     userRatings: place.user_ratings_total,
     website: place.website,
-    photo: getPhoto(place.photos),
+    photoRef: getPhotoRef(place.photos),
     reviews: getReviews(place.reviews),
     type,
   };
@@ -98,12 +99,19 @@ async function etl(type, token) {
     return null
   }
 
-  const results = await mapSeries(response.results.slice(0, 1), async (item) => {
+  const results = await mapSeries(response.results, async (item) => {
+    await sleep(secondsToWait)
+
     const details = await getPlaceDetails(item)
 
     const place = transform(details, type)
 
-    return await load(place)
+    const photoURL = await getPhotoURL(place)
+
+    return load({
+      ...place,
+      photoURL
+    })
   })
 
   debug(`saved: ${results.length}`)
@@ -112,12 +120,11 @@ async function etl(type, token) {
 }
 
 async function handler(type, token, counter = 0) {
+  debug(`handler:${type}:${counter}:${!!token}`)
   const nextToken = await etl(type, token)
   if (!nextToken || counter > counterLimit) {
     return null
   }
-
-  await sleep(secondsToWait)
 
   return handler(type, nextToken, counter + 1)
 }

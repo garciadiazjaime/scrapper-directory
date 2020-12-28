@@ -16,7 +16,8 @@ const PlaceSchema = new Schema({
   url: String,
   userRatings: Number,
   website: String,
-  photo: String,
+  photoRef: String,
+  photoURL: String,
   reviews: Array,
   type: String,
 }, { timestamps: true });

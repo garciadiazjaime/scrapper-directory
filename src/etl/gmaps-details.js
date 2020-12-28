@@ -13,7 +13,6 @@ async function extract(url) {
     return stub
   }
 
-  debug(url)
   const response = await fetch(url)
 
   return response.json()

@@ -18,9 +18,9 @@ function main() {
   //   'meal_takeaway',
   //   'restaurant',
   // ];
-  const type = 'restaurant';
+  // const type = 'restaurant';
   // const type = 'bar';
-  // const type = 'cafe';
+  const type = 'cafe';
   startRequest(type).then(() => {
     process.exit(1)
   });
