@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const stubRoutes = require('./routes/stubRoutes');
-const placesRoutes = require('./routes/placesRoutes');
 // import adminRoutes from './routes/adminRoutes';
 const config = require('./config');
 
@@ -19,7 +18,6 @@ app.use(bodyParser.urlencoded({
 app.set('views', './src/views');
 app.set('view engine', 'jade');
 
-app.use('/places', placesRoutes);
 // app.use('/admin', adminRoutes);
 app.use('/stub', stubRoutes);
 
